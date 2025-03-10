@@ -1,0 +1,12 @@
+# PostgreSQL temporary files
+postgres_data/*.log
+postgres_data/pg_wal/
+postgres_data/pg_stat_tmp/
+
+# Django static and media files
+static/__pycache__/
+static/media/tmp/
+
+# System files
+.DS_Store
+Thumbs.db

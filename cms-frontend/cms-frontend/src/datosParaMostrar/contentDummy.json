@@ -1,0 +1,109 @@
+{
+  "posts": [
+    {
+      "titulo": "Post 1",
+      "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis quam eget odio vehicula consectetur. Vestibulum id libero nec justo tincidunt faucibus. Sed scelerisque justo ut tortor dignissim, nec ultrices tellus lacinia. Nulla facilisi.",
+      "fecha_publicacion": "2023-09-08",
+      "estado": "publicado",
+      "categoria": "Tecnología"
+    },
+    {
+      "titulo": "Post 2",
+      "contenido": "Vivamus sed enim a ex rhoncus cursus in a leo. In hac habitasse platea dictumst. Suspendisse at congue augue. Sed euismod nibh sit amet tincidunt. Duis ut dui eget tortor sodales efficitur.",
+      "fecha_publicacion": "2023-09-09",
+      "estado": "publicado",
+      "categoria": "Viajes"
+    },
+    {
+      "titulo": "Post 3",
+      "contenido": "Phasellus ac felis non velit semper congue. Nullam nec lacinia arcu. Integer nec nunc auctor, blandit dui sit amet, rutrum nulla. Quisque feugiat, eros nec facilisis vestibulum, purus odio malesuada libero, vel bibendum justo nisl id urna.",
+      "fecha_publicacion": "2023-09-10",
+      "estado": "publicado",
+      "categoria": "Deportes"
+    },
+    {
+      "titulo": "Post 4",
+      "contenido": "Aenean nec orci quis quam congue tincidunt in in nisl. Vestibulum feugiat dolor vel justo bibendum, in varius turpis tristique. Suspendisse potenti.",
+      "fecha_publicacion": "2023-09-11",
+      "estado": "publicado",
+      "categoria": "Gastronomía"
+    },
+    {
+      "titulo": "Post 5",
+      "contenido": "Pellentesque eu leo sed ipsum tempor facilisis. Vivamus sed erat nec justo fermentum blandit vel eu mauris. Quisque auctor sit amet purus vel dictum.",
+      "fecha_publicacion": "2023-09-12",
+      "estado": "publicado",
+      "categoria": "Moda"
+    },
+    {
+      "titulo": "Post 6",
+      "contenido": "Donec pharetra est sit amet augue malesuada, a dictum ipsum tincidunt. Ut ut arcu nec libero vulputate iaculis ac quis libero.",
+      "fecha_publicacion": "2023-09-13",
+      "estado": "publicado",
+      "categoria": "Tecnología"
+    },
+    {
+      "titulo": "Post 7",
+      "contenido": "Cras in libero ac neque tristique ultricies. Fusce sit amet pharetra libero. Vestibulum euismod lectus at lectus egestas, non cursus justo laoreet.",
+      "fecha_publicacion": "2023-09-14",
+      "estado": "publicado",
+      "categoria": "Viajes"
+    },
+    {
+      "titulo": "Post 8",
+      "contenido": "Mauris euismod purus in metus congue scelerisque. Sed rhoncus nunc in sapien rhoncus scelerisque. Suspendisse potenti.",
+      "fecha_publicacion": "2023-09-15",
+      "estado": "publicado",
+      "categoria": "Deportes"
+    },
+    {
+      "titulo": "Post 9",
+      "contenido": "Aliquam vel tortor eget nulla interdum congue. Duis vitae justo a odio pellentesque semper. Vivamus consectetur quam vel justo varius, a euismod ex malesuada.",
+      "fecha_publicacion": "2023-09-16",
+      "estado": "publicado",
+      "categoria": "Gastronomía"
+    },
+    {
+      "titulo": "Post 10",
+      "contenido": "Suspendisse vel leo quis nisi tincidunt bibendum. Integer ac arcu vel elit condimentum posuere. Fusce in lectus nec augue volutpat auctor.",
+      "fecha_publicacion": "2023-09-17",
+      "estado": "publicado",
+      "categoria": "Moda"
+    },
+    {
+      "titulo": "Post 11",
+      "contenido": "Pellentesque scelerisque odio nec sapien hendrerit, eu scelerisque tortor bibendum. Nullam sit amet justo eu lorem venenatis sollicitudin.",
+      "fecha_publicacion": "2023-09-18",
+      "estado": "publicado",
+      "categoria": "Tecnología"
+    },
+    {
+      "titulo": "Post 12",
+      "contenido": "Vivamus scelerisque urna a quam tincidunt, ac malesuada neque venenatis. Nullam non quam nec justo efficitur euismod nec eu ante.",
+      "fecha_publicacion": "2023-09-19",
+      "estado": "publicado",
+      "categoria": "Viajes"
+    },
+    {
+      "titulo": "Post 13",
+      "contenido": "Sed at ligula nec ex rutrum congue. In vel congue lectus. Etiam volutpat orci vel mauris fermentum, eu rhoncus nisi pellentesque.",
+      "fecha_publicacion": "2023-09-20",
+      "estado": "publicado",
+      "categoria": "Deportes"
+    },
+    {
+      "titulo": "Post 14",
+      "contenido": "Fusce a justo vel quam bibendum congue. Curabitur non tristique enim. Nulla facilisi. Vivamus a mi in nunc facilisis dapibus.",
+      "fecha_publicacion": "2023-09-21",
+      "estado": "publicado",
+      "categoria": "Gastronomía"
+    },
+    {
+      "titulo": "Post 15",
+      "contenido": "Nunc vitae purus eu arcu eleifend tincidunt eget sed turpis. In euismod sapien id mi facilisis, id cursus dolor iaculis.",
+      "fecha_publicacion": "2023-09-22",
+      "estado": "publicado",
+      "categoria": "Moda"
+    }
+  ]
+}

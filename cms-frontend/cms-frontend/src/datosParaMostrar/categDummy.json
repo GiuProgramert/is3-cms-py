@@ -1,0 +1,24 @@
+{
+  "categorias": [
+    {
+      "titulo": "Tecnología",
+      "codigo": "TECNO"
+    },
+    {
+      "titulo": "Viajes",
+      "codigo": "VIAJE"
+    },
+    {
+      "titulo": "Deportes",
+      "codigo": "DEPOR"
+    },
+    {
+      "titulo": "Gastronomía",
+      "codigo": "GASTR"
+    },
+    {
+      "titulo": "Moda",
+      "codigo": "MODAF"
+    }
+  ]
+}

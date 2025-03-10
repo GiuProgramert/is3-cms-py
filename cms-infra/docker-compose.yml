@@ -1,0 +1,73 @@
+services:
+  backend:
+    image: registry.gitlab.com/is2-bbfl/cms-backend:latest
+    container_name: backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - DJANGO_SETTINGS_MODULE=cms_backend.settings
+      - DATABASE_URL=postgres://postgres:postgres@db:5432/cms
+    volumes:
+      - ../cms-volumes/static:/app/static  # Monta archivos estáticos desde el repositorio
+    depends_on:
+      - db
+    networks:
+      app-network:
+        ipv4_address: 172.20.0.3
+    command: >
+      sh -c "
+      python manage.py migrate &&
+      python manage.py runserver 0.0.0.0:8000"
+
+  frontend:
+    image:  registry.gitlab.com/is2-bbfl/cms-frontend:latest
+    container_name: frontend
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      app-network:
+        ipv4_address: 172.20.0.2
+
+  nginx:
+    image: nginx:stable-alpine
+    container_name: nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ../cms-volumes/static:/app/static:ro  # Solo lectura para Nginx
+    depends_on:
+      - frontend
+      - backend
+    networks:
+      app-network:
+        ipv4_address: 172.20.0.6
+
+  db:
+    image: postgres:15
+    container_name: postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: cms
+    volumes:
+      - ../cms-volumes/postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+    networks:
+      app-network:
+        ipv4_address: 172.20.0.4
+
+networks:
+  app-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16

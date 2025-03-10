@@ -1,0 +1,33 @@
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+db.sqlite3
+
+# Virtual environment
+venv/
+.env
+.env.local
+*.env
+
+# Logs
+logs/
+*.log
+
+# Static and media files
+staticfiles/
+media/
+
+# Django migrations
+**/migrations/*.pyc
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# IDE files
+.vscode/
+.idea/
+
+# Docker
+#docker-entrypoint.sh
